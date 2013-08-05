@@ -143,7 +143,6 @@ int main(int argc, char *argv[])
         }
         //if the left speed is negative, change the pins to reverse
         if(leftSpeed<0){
-           leftReverse=true;
             leftSpeed=leftSpeed*-1;
             digitalWrite(LEFT_MOTOR_1,HIGH);
             digitalWrite(LEFT_MOTOR_2,LOW);
